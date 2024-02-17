@@ -10,7 +10,7 @@ import org.junit.Test;
 public class BinaryTest
 {
     /**
-     * Test The constructor with a valid binary vallue
+     * Test The constructor with a valid binary value
      */
     @Test
     public void normalConstructor()
@@ -46,7 +46,7 @@ public class BinaryTest
         assertTrue( binary.getValue().equals("0"));
     }
     /**
-     * T	est The constructor with a zero tailing valid binary value
+     * Test The constructor with a zero tailing valid binary value
      */
     @Test
     public void constructorWithZeroTailing()
